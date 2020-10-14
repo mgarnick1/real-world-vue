@@ -6,7 +6,8 @@
       <h5>Organized by {{ event.organizer }}</h5>
       <h5>Category: {{ event.category }}</h5>
     </div>
-    <BaseIcon name="map"><h2>Location</h2></BaseIcon>
+    <BaseIcon name="map"></BaseIcon>
+    <h2 class="location-row">Location</h2>
     <address>{{ event.location }}</address>
     <h2>Event details</h2>
     <p>{{ event.description }}</p>
@@ -25,6 +26,9 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
+    <div>
+      <BaseButton>Save</BaseButton>
+    </div>
   </div>
 </template>
 
@@ -51,6 +55,9 @@ export default {
 }
 .location > .icon {
   margin-left: 10px;
+}
+.location-row {
+  display: inline-flex;
 }
 .event-header > .title {
   margin: 0;
