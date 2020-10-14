@@ -22,7 +22,7 @@ export default {
         this.events = res.data;
       })
       .catch(error => {
-        console.log(error);
+        console.log(error.res);
       });
   },
 };
