@@ -22,16 +22,22 @@ export default new Vuex.Store({
       { id: 3, text: 'Make 1 million dollars', done: true },
       { id: 4, text: 'Won an EGOT', done: false },
     ],
-    events: [
-      { id: 1, title: '...', organizer: '...' },
-      { id: 2, title: '...', organizer: '...' },
-      { id: 3, title: '...', organizer: '...' },
-      { id: 4, title: '...', organizer: '...' },
-    ],
+    events: [],
+    eventsTotal: 0,
+    event: {},
   },
   mutations: {
     ADD_EVENT(state, event) {
       state.events.push(event);
+    },
+    SET_EVENTS(state, events) {
+      state.events = events;
+    },
+    SET_EVENTS_TOTAL(state, eventsTotal) {
+      state.eventsTotal = eventsTotal;
+    },
+    SET_EVENT(state, event) {
+      state.event = event;
     },
   },
   actions: {
@@ -43,6 +49,30 @@ export default new Vuex.Store({
         .catch(() => {
           console.log('There was a problem creating your event from action');
         });
+    },
+    fetchEvents({ commit }, { perPage, page }) {
+      EventService.getEvents(perPage, page)
+        .then(res => {
+          commit('SET_EVENTS_TOTAL', parseInt(res.headers['x-total-count']));
+          commit('SET_EVENTS', res.data);
+        })
+        .catch(error => {
+          console.log(
+            'There was an error retrieving events, due to ' + error.response
+          );
+        });
+    },
+    fetchEvent({ commit, getters }, id) {
+      var event = getters.getEventById(id);
+      if (event) {
+        commit('SET_EVENT', event);
+      } else {
+        EventService.getEvent(id)
+          .then(res => {
+            commit('SET_EVENT', res.data);
+          })
+          .catch(error => console.log(error.response));
+      }
     },
   },
   modules: {},
