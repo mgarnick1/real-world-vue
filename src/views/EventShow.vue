@@ -26,6 +26,9 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
+    <div>
+      <BaseButton>Save</BaseButton>
+    </div>
   </div>
 </template>
 
