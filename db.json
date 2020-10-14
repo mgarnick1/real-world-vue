@@ -71,6 +71,60 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 494674,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Quakers",
+      "description": "Quakers",
+      "location": "Quackland",
+      "date": "2020-10-08T22:05:00.000Z",
+      "time": "3:00",
+      "attendees": []
+    },
+    {
+      "id": 7523245,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Going to School for coding",
+      "description": "Do a Code challenge",
+      "location": "School",
+      "date": "2020-10-30T22:13:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 4762798,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Animal Petting",
+      "description": "Give some attention to lost pets",
+      "location": "Animal Shelter",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
