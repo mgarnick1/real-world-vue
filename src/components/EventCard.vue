@@ -1,15 +1,22 @@
 <template>
-  <h1></h1>
+  <div>
+    <h4>{{ title }}</h4>
+  </div>
 </template>
 
 <script>
 export default {
+  name: 'EventCard',
   data() {
     return {
-      quote: 'I want to be single',
+      title: 'Park Cleanup',
     };
   },
 };
 </script>
 
-<style></style>
+<style scoped>
+h4 {
+  color: green;
+}
+</style>
