@@ -285,6 +285,21 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 7035073,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "community",
+      "organizer": "Adam",
+      "title": "Watch Community",
+      "description": "The TV show",
+      "location": "You home",
+      "date": "2020-10-15T17:40:00.000Z",
+      "time": "14:00",
+      "attendees": []
     }
   ]
 }
