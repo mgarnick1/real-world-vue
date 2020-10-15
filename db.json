@@ -300,6 +300,36 @@
       "date": "2020-10-15T17:40:00.000Z",
       "time": "14:00",
       "attendees": []
+    },
+    {
+      "id": 1768274,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "sustainability",
+      "organizer": "Adam",
+      "title": "success notificatiob",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 3948453,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "housing",
+      "organizer": "Adam",
+      "title": "House Party",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }

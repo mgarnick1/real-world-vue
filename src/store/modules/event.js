@@ -23,28 +23,42 @@ export const mutations = {
 };
 
 export const actions = {
-  createEvent({ commit }, event) {
+  createEvent({ commit, dispatch }, event) {
     return EventService.postEvent(event)
       .then(() => {
         commit('ADD_EVENT', event);
+        const notification = {
+          type: 'success',
+          message: 'Your event has been created!',
+        };
+        dispatch('notification/add', notification, { root: true });
       })
-      .catch(() => {
-        console.log('There was a problem creating your event from action');
+      .catch(error => {
+        const notification = {
+          type: 'error',
+          message:
+            'There was a problem creating your event from action: ' +
+            error.message,
+        };
+        dispatch('notification/add', notification, { root: true });
+        throw error;
       });
   },
-  fetchEvents({ commit }, { perPage, page }) {
+  fetchEvents({ commit, dispatch }, { perPage, page }) {
     EventService.getEvents(perPage, page)
       .then(res => {
         commit('SET_EVENTS_TOTAL', parseInt(res.headers['x-total-count']));
         commit('SET_EVENTS', res.data);
       })
       .catch(error => {
-        console.log(
-          'There was an error retrieving events, due to ' + error.response
-        );
+        const notification = {
+          type: 'error',
+          message: 'There was a problem fetching events: ' + error.message,
+        };
+        dispatch('notification/add', notification, { root: true });
       });
   },
-  fetchEvent({ commit, getters }, id) {
+  fetchEvent({ commit, getters, dispatch }, id) {
     var event = getters.getEventById(id);
     if (event) {
       commit('SET_EVENT', event);
@@ -53,7 +67,13 @@ export const actions = {
         .then(res => {
           commit('SET_EVENT', res.data);
         })
-        .catch(error => console.log(error.response));
+        .catch(error => {
+          const notification = {
+            type: 'error',
+            message: 'There was a problem fetching event: ' + error.message,
+          };
+          dispatch('notification/add', notification, { root: true });
+        });
     }
   },
 };
