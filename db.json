@@ -330,6 +330,36 @@
       "date": "",
       "time": "",
       "attendees": []
+    },
+    {
+      "id": 2676688,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "nature",
+      "organizer": "Adam",
+      "title": "Quail watching",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 9795402,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "education",
+      "organizer": "Adam",
+      "title": "Learning stuff for fun",
+      "description": "",
+      "location": "",
+      "date": "",
+      "time": "",
+      "attendees": []
     }
   ]
 }
