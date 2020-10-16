@@ -29,14 +29,12 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
-    <div>
-      <BaseButton>Save</BaseButton>
-    </div>
   </div>
 </template>
 
 <script>
 export default {
+  inheritAttrs: false,
   props: {
     event: {
       type: Object,
