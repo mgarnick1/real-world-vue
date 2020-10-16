@@ -50,6 +50,7 @@
 <script>
 import Datepicker from 'vuejs-datepicker';
 import NProgress from 'nprogress';
+import { required } from 'vuelidate/lib/validators';
 export default {
   name: 'EventCreate',
   components: {
@@ -66,6 +67,7 @@ export default {
       categories: this.$store.state.categories,
     };
   },
+  validations: {},
   methods: {
     createEvent() {
       NProgress.start();
