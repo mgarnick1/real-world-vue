@@ -1,6 +1,5 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
-import Home from '../views/Home.vue';
 import EventList from '../views/EventList.vue';
 import EventShow from '../views/EventShow.vue';
 import EventCreate from '../views/EventCreate.vue';
