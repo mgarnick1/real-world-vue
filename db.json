@@ -228,7 +228,7 @@
       "title": "Gregg's Event",
       "description": "We'll do stuff",
       "location": "Your House",
-      "date": "",
+      "date": "Jan 1, 2019",
       "time": "5:00",
       "attendees": []
     },
@@ -312,8 +312,8 @@
       "title": "success notificatiob",
       "description": "",
       "location": "",
-      "date": "",
-      "time": "",
+      "date": "Mar 20, 2020",
+      "time": "1:00",
       "attendees": []
     },
     {
@@ -327,8 +327,8 @@
       "title": "House Party",
       "description": "",
       "location": "",
-      "date": "",
-      "time": "",
+      "date": "Apr 15, 2020",
+      "time": "18:00",
       "attendees": []
     },
     {
@@ -342,8 +342,8 @@
       "title": "Quail watching",
       "description": "",
       "location": "",
-      "date": "",
-      "time": "",
+      "date": "Jun 27, 2019",
+      "time": "8:00",
       "attendees": []
     },
     {
@@ -357,8 +357,8 @@
       "title": "Learning stuff for fun",
       "description": "",
       "location": "",
-      "date": "",
-      "time": "",
+      "date": "Sep 9, 2019",
+      "time": "8:00",
       "attendees": []
     },
     {
@@ -372,8 +372,8 @@
       "title": "Pizza Party",
       "description": "",
       "location": "",
-      "date": "",
-      "time": "",
+      "date": "Jul 19, 2019",
+      "time": "20:00",
       "attendees": []
     },
     {
