@@ -1,9 +1,12 @@
 <template>
   <div>
     <div class="event-header">
-      <span class="eyebrow">@{{ event.time }} on {{ event.date }}</span>
+      <span class="eyebrow">@{{ event.time }} on {{ event.date | date }}</span>
       <h1 class="title">{{ event.title }}</h1>
-      <h5>Organized by {{ event.organizer }}</h5>
+      <h5>
+        Organized by
+        {{ event.organizer.name ? event.organizer.name : event.organizer }}
+      </h5>
       <h5>Category: {{ event.category }}</h5>
     </div>
     <BaseIcon name="map"></BaseIcon>
@@ -26,25 +29,17 @@
         <b>{{ attendee.name }}</b>
       </li>
     </ul>
-    <div>
-      <BaseButton>Save</BaseButton>
-    </div>
   </div>
 </template>
 
 <script>
-import EventService from '@/services/EventServices.js';
 export default {
-  props: ['id'],
-  data() {
-    return {
-      event: {},
-    };
-  },
-  created() {
-    EventService.getEvent(this.id)
-      .then(res => (this.event = res.data))
-      .catch(error => console.log(error.response));
+  inheritAttrs: false,
+  props: {
+    event: {
+      type: Object,
+      required: true,
+    },
   },
 };
 </script>

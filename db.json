@@ -71,6 +71,325 @@
           "name": "Mary Gordon"
         }
       ]
+    },
+    {
+      "id": 4,
+      "title": "Disco Party",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Vue Users Group",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Orlando Dev Meetup",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Yoga Class",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Breathing Meditation",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Dancing Class",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
+      "category": "animal welfare",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "animal welfare",
+      "organizer": {
+        "user": {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        }
+      },
+      "title": "Gregg's Event",
+      "description": "We'll do stuff",
+      "location": "Your House",
+      "date": "Jan 1, 2019",
+      "time": "5:00",
+      "attendees": []
+    },
+    {
+      "id": 494674,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Quakers",
+      "description": "Quakers",
+      "location": "Quackland",
+      "date": "2020-10-08T22:05:00.000Z",
+      "time": "3:00",
+      "attendees": []
+    },
+    {
+      "id": 7523245,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Going to School for coding",
+      "description": "Do a Code challenge",
+      "location": "School",
+      "date": "2020-10-30T22:13:00.000Z",
+      "time": "9:00",
+      "attendees": []
+    },
+    {
+      "id": 4762798,
+      "user": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "category": "animal welfare",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahar"
+      },
+      "title": "Animal Petting",
+      "description": "Give some attention to lost pets",
+      "location": "Animal Shelter",
+      "date": "",
+      "time": "",
+      "attendees": []
+    },
+    {
+      "id": 7035073,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "community",
+      "organizer": "Adam",
+      "title": "Watch Community",
+      "description": "The TV show",
+      "location": "You home",
+      "date": "2020-10-15T17:40:00.000Z",
+      "time": "14:00",
+      "attendees": []
+    },
+    {
+      "id": 1768274,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "sustainability",
+      "organizer": "Adam",
+      "title": "success notificatiob",
+      "description": "",
+      "location": "",
+      "date": "Mar 20, 2020",
+      "time": "1:00",
+      "attendees": []
+    },
+    {
+      "id": 3948453,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "housing",
+      "organizer": "Adam",
+      "title": "House Party",
+      "description": "",
+      "location": "",
+      "date": "Apr 15, 2020",
+      "time": "18:00",
+      "attendees": []
+    },
+    {
+      "id": 2676688,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "nature",
+      "organizer": "Adam",
+      "title": "Quail watching",
+      "description": "",
+      "location": "",
+      "date": "Jun 27, 2019",
+      "time": "8:00",
+      "attendees": []
+    },
+    {
+      "id": 9795402,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "education",
+      "organizer": "Adam",
+      "title": "Learning stuff for fun",
+      "description": "",
+      "location": "",
+      "date": "Sep 9, 2019",
+      "time": "8:00",
+      "attendees": []
+    },
+    {
+      "id": 6152474,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "food",
+      "organizer": "Adam",
+      "title": "Pizza Party",
+      "description": "",
+      "location": "",
+      "date": "Jul 19, 2019",
+      "time": "20:00",
+      "attendees": []
+    },
+    {
+      "id": 9668296,
+      "user": {
+        "id": "abc123",
+        "name": "Adam"
+      },
+      "category": "",
+      "organizer": "Adam",
+      "title": "This is a mixin party",
+      "description": "Mixins for the win",
+      "location": "Mixin house",
+      "date": "2020-10-29T19:52:00.000Z",
+      "time": "5:00",
+      "attendees": []
     }
   ]
 }
